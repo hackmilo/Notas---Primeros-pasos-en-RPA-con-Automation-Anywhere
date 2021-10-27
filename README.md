@@ -144,14 +144,14 @@ De acuerdo al anterior caso se podría calificar de la siguiente manera cada Fac
 
 
 | Factor de idoneidad | Score | Observación |
-| :------------: | :------------: | :------------: | :------------: | :------------: |
-| Naturaleza de los datos. | 4 |Las ventas estan registradas de manera digital en el sistema "ABC".
-| Sistema de dependencias.  | 4 |Solo se habla del sistema "ABC" que se maneja en las distintas áreas. |
-| Dificultad del proceso. | 3 |Se requiere revisar más detalles sobre el proceso para saber como automatizarlo correctamente. |
-| Frecuencia de cambios en el proceso. | 3 |Es necesario investigar con el equipo responsable si hay más procesos involucrados y si cambian con frecuencia.
-| Aplicaciones para automatizar. | 4 |Todos utilizan el sistema por lo tanto solo este se automatizaría, dado el caso. |
-| Nivel de cognición. | 4 |Solo se requiere que de acuerdo a ciertos terminos se apruebe o no una solicitud. |
-| Horas humanas dedicadas. | 3 |Suponiendo un buen volumen de ventas el equipo de contratación revisa repetitivamente estos pedidos. |
+| :------------: | :------------: | :------------: |
+| Naturaleza de los datos. | 4 | Las ventas estan registradas de manera digital en el sistema "ABC".
+| Sistema de dependencias.  | 4 | Solo se habla del sistema "ABC" que se maneja en las distintas áreas. |
+| Dificultad del proceso. | 3 | Se requiere revisar más detalles sobre el proceso para saber como automatizarlo correctamente. |
+| Frecuencia de cambios en el proceso. | 3 | Es necesario investigar con el equipo responsable si hay más procesos involucrados y si cambian con frecuencia.
+| Aplicaciones para automatizar. | 4 | Todos utilizan el sistema por lo tanto solo este se automatizaría, dado el caso. |
+| Nivel de cognición. | 4 | Solo se requiere que de acuerdo a ciertos terminos se apruebe o no una solicitud. |
+| Horas humanas dedicadas. | 3 | Suponiendo un buen volumen de ventas el equipo de contratación revisa repetitivamente estos pedidos. |
 
 ## Recap
 
