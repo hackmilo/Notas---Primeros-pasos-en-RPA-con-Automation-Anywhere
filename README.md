@@ -158,3 +158,50 @@ De acuerdo al anterior caso se podría calificar de la siguiente manera cada Fac
 [![7](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/7.png?raw=true "7")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/7.png?raw=true "7")
 
 # Hello Automation 360 Bot: Introducción a la creación de bots
+
+ Automation 260 es la plataforma insignia impulsada por IA de Automation Anywhere, para automatizar procesos usando bots de software.
+
+La única plataforma del mundo basada en la web y nativa de la nube para la automatización de un extremo a otro que le permite automatizar procesos con un bajo costo de infraestructura y un escalado más rápido.
+
+Combina la usabilidad similar a la del consumidor, fiabilidad de clase personal, seguridad para RPA y automatizar por su propia cuenta en tiempo real.
+
+[![8](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/8.png?raw=true "8")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/8.png?raw=true "8")
+
+**AARI:** Automation Anywhere Robotic Interface (AARI) asistente digital.
+
+**Discover - Discovery Bot:** Descubrir y documentar los procesos comerciales.
+
+**Digitalize - IQ Bot:** Digitalice datos estructurados y no estructurados.
+
+**Automate - RPA Workspace:** Única solución basada en la web para crear e implementar bots.
+
+**Optimize - Bot Insight:** Perspectivas empresariales y operativa.
+
+Responsables de la implementación y gestión de RPA:
+
+[![9](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/9.png?raw=true "9")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/9.png?raw=true "9")
+
+Para automatizar un proceso se requiere de tres pasos: 
+
+[![10](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/10.png?raw=true "10")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/10.png?raw=true "10")
+
+Para empezar se requiere hacer Log in en la pagina, descargar Bot Agent y registrar equipo junto con las credenciales necesarias.
+
+[![11](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/11.png?raw=true "11")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/11.png?raw=true "11")
+
+Luego se creará un bot de tareas que extraiga información de la web a un archivo CSV, cargar el archvo en un CRM (Customer Relationship Management), completar el formulario web CRM, guardar y enviar el archivo CSV al Relationship Manager.
+
+[![12](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/12.png?raw=true "12")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/12.png?raw=true "12")
+
+[![13](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/13.png?raw=true "13")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/13.png?raw=true "13")
+
+## Empezando con Automation 360
+
+[![14](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/14.png?raw=true "14")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/14.png?raw=true "14")
+
+[![15](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/15.png?raw=true "15")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/15.png?raw=true "15")
+
+https://www.automationanywhere.com/products/enterprise/community-edition
+
+https://community.cloud.automationanywhere.digital/#/login?next=/index
+
