@@ -16,8 +16,9 @@
 - [Identificación de casos de uso para crear bots](#identificación-de-casos-de-uso-para-crear-bots)
   - [¿Qué puede hacer realmente un bot RPA?](#qué-puede-hacer-realmente-un-bot-rpa)
   - [¿Qué constituye una buena oportunidad de RPA?](#qué-constituye-una-buena-oportunidad-de-rpa)
-  - [Recap](#recap)
+  - [Recap](#recap) 
 - [Hello Automation 360 Bot: Introducción a la creación de bots](#hello-automation-360-Bot-introducción-a-la-creación-de-bots)
+  - [Empezando con Automation 360](#empezando-con-automation-360)
 
 
 # ¿Sabías que RPA es simple, pero poderoso, en comparación con la automatización tradicional?
@@ -197,11 +198,56 @@ Luego se creará un bot de tareas que extraiga información de la web a un archi
 
 ## Empezando con Automation 360
 
-[![14](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/14.png?raw=true "14")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/14.png?raw=true "14")
+De acuerdo con los pasos anteriores para poder ingresar y hacer **Log in** primero debemos registrarnos con nuestros datos para obtener la versión **Community Edition** -> [Community Edition (Free)](https://www.automationanywhere.com/products/enterprise/community-edition "Community Edition (Free)"), una vez realizado el registro llega al correo el usuario y la contraseña con la cual podremos ingresar por medio del [Community Edition Log in](https://community.cloud.automationanywhere.digital/#/login?next=/index "Community Edition Log in").
 
 [![15](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/15.png?raw=true "15")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/15.png?raw=true "15")
 
-https://www.automationanywhere.com/products/enterprise/community-edition
+Automation 360 en la versión **Community Edition** es gratuita y permite registrar un solo dispositivo, proporciona una única licencia con acceso limitado a comparación con la versión pagada **Enterprise Edition.** 
 
-https://community.cloud.automationanywhere.digital/#/login?next=/index
+[![14](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/14.png?raw=true "14")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/14.png?raw=true "14")
 
+Automation 360 utiliza el control de acceso basado en roles **(RBAC)** para permitir a los usuarios acceder a bots y a varias funciones dentro de la **Control Room.**  Por lo tanto, cada usuario puede ver un conjunto diferente de opciones y métricas de información.
+
+Al registrarse en https://www.automationanywhere.com/products/enterprise/community-edition se enviaran las credeciales necesarias para ingresar.
+
+[![15](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/15.png?raw=true "15")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/15.png?raw=true "15")
+
+Contando con las credenciales se puede hacer Log in en https://community.cloud.automationanywhere.digital/#/login?next=/index para ingresar en el control room de la Community Edition.
+
+[![16](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/16.png?raw=true "16")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/16.png?raw=true "16")
+
+El segundo paso es registrar el equipo donde va a correr nuestro bot en la pestaña de **Dispositivos,** se requiere instalar Bot Agent, registrarse y actualizar nuestras credenciales para conectar un dispositivo local.
+
+[![17](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/17.png?raw=true "17")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/17.png?raw=true "17")
+
+[![18](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/18.png?raw=true "18")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/18.png?raw=true "18")
+
+[![19](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/19.png?raw=true "19")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/19.png?raw=true "19")
+
+Prueba:
+
+[![20](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/20.png?raw=true "20")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/20.png?raw=true "20")
+
+[![21](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/21.png?raw=true "21")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/21.png?raw=true "21")
+
+Ahora es momento de pasar al tercer paso y es crear un **Task Bot** en la pestaña de **Explorar** se da clic en Crear Task Bot y se configura:
+
+[![22](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/22.png?raw=true "22")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/22.png?raw=true "22")
+
+Una vez creado se abrirá el editor de Bot donde se podran seleccionar y arrastrar las actividades necesarias para desarrollar el bot, se utiliza la siguiente lista para organizar cada uno de los pasos.
+
+[![23](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/23.png?raw=true "23")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/23.png?raw=true "23")
+
+> Open site & extract to CSV
+> Open CSV & launch CRM website
+> Loop Customers & enter data
+> Save & send CSV to RM
+
+> https://rpademo.automationanywhere.com/itbricks_enroll.php
+> https://rpademo.automationanywhere.com/itbricks_crm.php
+
+[![24](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/24.png?raw=true "24")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/24.png?raw=true "24")
+
+[![error](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/error.png?raw=true "error")](https://github.com/hackmilo/Notas---Primeros-pasos-en-RPA-con-Automation-Anywhere/blob/main/img/error.png?raw=true "error")
+
+https://apeople.automationanywhere.com/s/question/0D52t000011hBrxCAE/why-cant-i-find-my-credentials?language=en_US
